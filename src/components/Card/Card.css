@@ -1,0 +1,37 @@
+.card {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 10px 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cross {
+    background: red;
+    position: relative;
+    width: 10px;
+    margin: 0 15px 0 5px;
+}
+
+.cross:after {
+    background-color: inherit;
+    content: "";
+    height: 50%;
+    left: -50%;
+    position: absolute;
+    top: 25%;
+    width: 200%;
+    z-index: -1;
+}
+
+.square {}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #007bff transparent;
+}
