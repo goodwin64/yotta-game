@@ -1,22 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-logo" />
+        <h1>Yotta game is now online!</h1>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://desktopgames.com.ua/iota.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn more
         </a>
       </header>
     </div>
